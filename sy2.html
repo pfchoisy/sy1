@@ -1,0 +1,112 @@
+<html>
+	<title>Prototyping with Video</title>
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+	<!-- <link rel='stylesheet' type='text/css' href='style.css'> -->
+	<style>
+	
+	body{
+		background-color: #f4f7f9;margin:0px;padding: 0px;
+	}
+	
+	article {
+	 	background-color:#fff;
+	 	width:500px;
+	 	margin:40px auto;
+	 	padding:10px;
+		font: 16px/1 "Fakt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+		clear:both;
+	 }
+	 
+	 #topbar {
+	 	margin:0;padding:0;background-color:#28B4EF;width:100%;height:80px;
+	 }
+	 
+	 #sns{
+	 	float: right;color:#ffffff;height:100%; line-height:80px;padding-right:30px;
+	 }
+	.logo{
+		float: left; color:#ffffff;height:100%; line-height:80px;padding-left:30px;
+	}
+	 a:link {text-decoration:none; color: #28b4ef;} 
+	 a:hover {text-decoration:underline; color: #28b4ef;}
+	 
+	 article img {
+	 	width:500px;
+	 }
+	 
+	h5 {
+			color:#a3a3a3;
+		}
+		
+	h3 {
+		font-size:24px;
+		margin:0px;
+		padding:0px;
+	}	
+	p {
+			margin-bottom: 20px;color:#6c6e72;font: 14px/1 "Fakt", "Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: 400;line-height:26px;
+			-webkit-font-smoothing: antialiased;
+		}
+	.footer{
+		color:#c2c2c2;
+	}
+	
+	#navigation {
+		text-align: center;
+		margin: 0px auto;
+	}
+	
+	ul {
+				background-color:#ff0000;
+
+	}
+	
+
+	#navigation li {
+		float:left;
+		margin-left:10px;
+	}
+	
+
+	</style>
+	</head>
+	<body>
+		
+	<div id="topbar">
+		<div class="logo"><h3>LOGO</h3></div> 
+		<div id="sns">Facebook Twitter NaverBlog Instagram</div> 
+	</div>
+	<div id="navigation">
+		<ul>
+			<li>Mobile UI</li>
+			<li>Graphic</li>
+			<li>Package</li>
+			<li>BI</li>
+			<li>Illustration</li>
+			<li>Interaction</li>
+			<li>Diary</li>
+		</ul>
+	</div>
+	<article> 
+		<h3>Prototyping with Video</h3>
+		
+		<h5>BY BENJAMIN NATHAN</h5>
+		
+		<img src='images/img1.png' alt='thumbnail'>
+		
+		<p>The latest version of Framer Studio supports <strong>videoLayers.</strong> A videoLayer allows you to include any type of video. It also introduces new methods and events such as play(), load(), on “play”, on “end” and <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events" target='_blank'>many more.</a></p>
+
+		<p>Adobe’s <strong>After Effects</strong> is a powerful animation tool. It’s great for creating a complex path animation. With a videoLayer, you can include it in your prototype. To demonstrate how, we’ve recreated an example from Android (see above).</p>
+
+		<p>First, we create a basic version of the spinner in After Effects. We export it, and include it in our prototype. We then define the rotation, playback rate, opacity, scale and position in Framer. We slow it down slightly, and match the duration of the rotating animation with that of the video. Below is a code snippet showing what we’ve done with the original video:</p>
+		<img src='http://static.tumblr.com/nlywmlg/pwxna8xiu/code.png' alt='코드'>
+		<p>Combining the flexibility of code with the animation capabilities of After Effects brings a new range of exciting possibilities.</p>
+
+		<p>See it live on the Examples Site.</p>
+
+		<p class="footer">13, 2014</p>	
+	</article>
+	<footer>2014.</footer>
+	</body>	
+</html>
